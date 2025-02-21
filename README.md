@@ -13,6 +13,10 @@ Built with:
 - Smooth, custom scrolling
 - Scroll-triggered animations
 - Fun custom cursor
+- Responsive design
+
+## Structure 📂
+
 ## Setup 🔧
 1. Clone the repo:  
    `git clone https://github.com/yourusername/yourrepository.git`
@@ -22,8 +26,3 @@ Built with:
 - **GSAP & ScrollTrigger** 🎬
 - **Locomotive Scroll** 🏃‍♂️
 - Licensed under the MIT License
-
-- Responsive design
-
-## Structure 📂
-
