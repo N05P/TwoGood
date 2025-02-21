@@ -1,0 +1,369 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+#navbar{
+    position: fixed;
+    top:0%;
+    left:0%;
+    display:flex;
+    padding:2vw;
+    gap:50vw;
+    font-family: "Helvetica";
+}
+#main{
+    background-color: #F7F7F7;
+    overflow:hidden;
+    position: relative;
+}
+#menub{
+    display:flex;
+    gap:3.5vw;
+    font-size:0.9vw;
+    text-transform: uppercase;
+    font-weight:500;
+}
+#menu{
+    display:flex;
+    gap:3.5vw;
+}
+#button{
+    display:flex;
+    gap:3.5vw;
+}
+#page1{
+    min-height:150vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#firstcontent{
+    display:flex;
+    gap:4vw;
+}
+#page1 h1{ 
+    font-size:15.2vw;
+    font-weight: 800;
+}
+#txt{
+    margin-top:12vw;
+    line-height:14vw;
+    text-transform: uppercase;
+    font-family:"Futura Now Headline";
+    margin-bottom:4vw;
+}
+#img{
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden; 
+}
+img{
+    height:100vh;
+    width:96vw;
+    object-fit: cover;
+}
+#page1e{
+    width:100%;
+    padding:2vw;
+}
+#pagee{
+    display:flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+hr{
+    background-color: black;
+}
+#page2{
+    width:100%;
+    min-height:110vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    height:90vh;
+    width:30%;
+    overflow: hidden;
+    position: relative;
+}
+.card img{
+    height: 100%;
+    width:100%;
+    object-fit: contain;
+    scale:1.2;
+}
+.bet{
+    padding: 14px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius:24px;
+    width:80%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 187, 0);
+}
+
+#page3{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:3vw;
+    margin-bottom:4vw;
+}
+#page3 h1{
+    font-size:3vw;
+    width:40%;
+    text-transform: uppercase;
+    font-family: "Helvetica Now Text";
+}
+#txt1 p{
+    line-height: 1.8vw;
+}
+#txt1{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    gap:3vw;
+    font-family: "Pp mori";
+    font-weight: 400;
+    font-style: normal;
+    align-items: first baseline;
+}
+#txt1 button{
+    outline:none;
+    background: none;
+    border:none;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+#page4{
+    position:relative;
+    height: 100vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card2{
+    font-size:1vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica Now Text Light";
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#page4 .card2 img{
+    z-index: 10;
+}
+.card2 img{
+    height:90%;
+    width:100%;
+    object-fit: cover;
+}
+#cursor{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.626);
+    position: fixed;
+    scale:0;
+    pointer-events: none;
+    z-index:10;
+}
+::selection{
+    color:white;
+    background-color: black;
+}
+#page4e{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding:2vw;
+}
+#tt{
+    text-transform: uppercase;
+    display:flex;
+    font-size: 1.2vw;
+    justify-content: space-between;
+    font-family: "Helvetica Now Text Light";
+    font-weight: 900;
+}
+#line{
+    width: 100%;       
+    height: 1px;      
+    background: black;
+    transform-origin: left; 
+    transform: scaleX(1);          
+}
+#page5{
+    height:100vh;
+    width:100%;
+    padding:2vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#content{
+    width:90%;
+    font-size:1.6vw;
+    font-family: "Helvetica Now Text Light";
+    font-weight:600;
+    display:flex;
+}
+.content{
+    width:50%;
+}
+.dot{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    border:1.4px solid black;
+    cursor:pointer;
+}
+#txtcontent{
+    width:75%;
+    font-size:2.2vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Pp mori";
+}
+#pg4last{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+#pg4last button{
+    padding:20px 50px;
+    border-radius:24px;
+    outline:none;
+    font-size:1vw;
+    background-color: black;
+    color:white;
+    font-weight:900;
+    text-transform: uppercase;
+    font-family: "Helvetica Now Text Light";
+}
+#pg4last p{
+    width:60%;
+    text-align: center;
+    font-family: "Helvetica Now Text Light";
+}
+#page6{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    width:100%;
+    padding:2vw;
+    font-family: "Helvetica Now Text";
+}
+.xx{
+    display:flex;
+}
+#xt{
+    width:40vw;
+    display:flex;
+    flex-direction: column;
+    gap:2vw;
+}
+#xt h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size:2vw;
+}
+#xt p{
+    font-weight: 500;
+    width:80%;
+}
+#ximg{
+    width:80vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.xcard{
+    width:30vw;
+    height:90vh;
+    overflow: hidden;
+}
+.xcard img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.last{
+    font-size:1vw;
+}
+#page6 input{
+    outline:none;
+    background:none;
+    border:none;
+    text-transform: uppercase;
+    height: 6vw;
+    margin-top:3vw;
+    font-size:3vw;
+    padding:2vw;
+    border-bottom:1px solid black;
+}
+#footer{
+    height:100vh;
+    width:100vw;
+    padding:2vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Helvetica Now Text";
+}
+#loog{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5vw;
+    margin-top:6vw;
+}
+#lasst{
+    width:60vw;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Pp mori";
+    font-size:1vw;
+}
+
+.terms{
+    display:flex;
+    gap:3vw;
+    color:rgba(0, 0, 0, 0.366);
+    font-weight: 500;
+    font-size:1.5vw;
+}
+#connect,#nitty{
+    font-size:1vw;
+    font-weight:500;
+    line-height: 1.4vw;
+    height:100vh;
+    display:flex;
+    margin-top:20vw;
+    flex-direction: column;
+    
+}
+#nitty{
+    text-align: right;
+}
